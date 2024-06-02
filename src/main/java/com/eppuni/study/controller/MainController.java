@@ -10,4 +10,10 @@ public class MainController {
     public String getMain() {
         return "WeLLCOME TO THIS WAY";
     }
+
+    @GetMapping(value = "/health/checker")
+    public String healthChekcer(){
+        return "Success";
+    }
+
 }
